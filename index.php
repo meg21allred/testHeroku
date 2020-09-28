@@ -6,6 +6,9 @@
     <title>Document</title>
 </head>
 <body>
-    <form action="formGuy.php" method="post"></form>
+    <form action="formGuy.php" method="post">
+    <button type="submit"></button>
+    </form>
+   
 </body>
 </html>
