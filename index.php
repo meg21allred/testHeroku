@@ -6,6 +6,6 @@
     <title>Document</title>
 </head>
 <body>
-    Hello test
+    <form action="formGuy.php" method="post"></form>
 </body>
 </html>
