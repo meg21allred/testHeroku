@@ -10,12 +10,15 @@
     <form action="formGuy.php" method="post">
     
         <!-- name -->
-        <input type="text" name="name" placeholder="name"><br>
+        <label for="name">Enter your name: </label>
+        <input type="text" id="name" name="name" placeholder="name"><br><br>
         
         <!-- email -->
-        <input type="text" name="email" placeholder="email"><br>
+        <label for="email">Enter your email: </label>
+        <input type="text" name="email" placeholder="email"><br><br>
 
         <!-- radio buttons -->
+        <span>Pick a major:</span><br>
         <input type="radio" name="major" id="comScience" value="Computer Science">
         <label for="comScience">Computer Science</label><br>
 
@@ -26,13 +29,13 @@
         <label for="comInfo">Computer Information Technology</label><br>
 
         <input type="radio" name="major" id="comEngine" value="Computer Engineering">
-        <label for="comEngine">Computer Engineering</label><br>
+        <label for="comEngine">Computer Engineering</label><br><br>
 
         <!-- comments -->
         <textarea name="comments" rows="5" cols="40" placeholder="comments..."></textarea><br><br>
     
         <!-- submit button -->
-        <button type="submit"></button>
+        <button type="submit">Submit</button>
     </form>
    
 </body>
