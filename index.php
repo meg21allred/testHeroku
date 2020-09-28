@@ -29,7 +29,7 @@
         <label for="comEngine">Computer Engineering</label><br>
 
         <!-- comments -->
-        <input type="textarea" name="comments" rows="5" cols="40" placeholder="comments..."><br><br>
+        <textarea name="comments" rows="5" cols="40" placeholder="comments..."></textarea><br><br>
     
         <!-- submit button -->
         <button type="submit"></button>
