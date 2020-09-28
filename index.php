@@ -7,6 +7,13 @@
 </head>
 <body>
     <form action="formGuy.php" method="post">
+    <input type="text" name="name" placeholder="name">
+    <input type="text" name="email" placeholder="email">
+    <input type="radio" name="major" value="Computer Science">
+    <input type="radio" name="major" value="Web Design and Developement">
+    <input type="radio" name="major" value="Computer information technology">
+    <input type="radio" name="major" value="Computer Engineering">
+    <input type="textarea" name="comments" rows="5" cols="40" placeholder="comments...">
     <button type="submit"></button>
     </form>
    
