@@ -65,8 +65,7 @@
             echo '<input type="radio" name="major" id="comScience" value="'.$majors[$i].'">
             <label for="comScience">'.$majors[$i].'</label><br>';
         }
-        echo ' <button type="submit">Submit</button>';
-        echo "</form>";
+        
 
         echo '<h3>What Continents have you visited?</h3><br>
         <input type="checkbox" name="continents[]" value="North America">
@@ -83,6 +82,9 @@
         <label for="continents6"> Africa</label><br>
         <input type="checkbox" name="continents[]" value="Antartica">
         <label for="continents7"> Antartica</label><br><br>';
+
+        echo ' <button type="submit">Submit</button>';
+        echo "</form>";
     ?>
 </body>
 </html>
