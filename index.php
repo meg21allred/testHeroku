@@ -34,20 +34,20 @@
         <!-- checkboxes -->
 
         <h3>What Continents have you visited?</h3><br>
-        <input type="checkbox" name="continents[]" value="place-na">
-        <label for="continents1"> North American</label><br>
-        <input type="checkbox" name="continents[]" value="place-sa">
-        <label for="continents2"> South America</label><br>
-        <input type="checkbox" name="continents[]" value="place-eu">
-        <label for="continents3"> Europe</label><br>
-        <input type="checkbox" name="continents[]" value="place-as">
-        <label for="continents4"> Asia</label><br>
-        <input type="checkbox" name="continents[]" value="place-au">
-        <label for="continents5"> Australia</label><br>
-        <input type="checkbox" name="continents[]" value="place-af">
-        <label for="continents6"> Africa</label><br>
-        <input type="checkbox" name="continents[]" value="place-an">
-        <label for="continents7"> Antartica</label><br><br>
+        <input type="checkbox" id="place-na" name="continents[]" value="North America">
+        <label for="place-na"> North American</label><br>
+        <input type="checkbox" id="place-sa" name="continents[]" value="South America">
+        <label for="place-sa"> South America</label><br>
+        <input type="checkbox" id="place-eu" name="continents[]" value="Europe">
+        <label for="place-eu"> Europe</label><br>
+        <input type="checkbox" id="place-as" name="continents[]" value="Asia">
+        <label for="place-aa"> Asia</label><br>
+        <input type="checkbox" id="place-au" name="continents[]" value="Austrulia">
+        <label for="place-au"> Australia</label><br>
+        <input type="checkbox" id="place-af" name="continents[]" value="Africa">
+        <label for="place-af"> Africa</label><br>
+        <input type="checkbox" id="place-an"name="continents[]" value="Antartica">
+        <label for="place-an"> Antartica</label><br><br>
 
         <!-- comments -->
         <textarea name="comments" rows="5" cols="40" placeholder="comments..."></textarea><br><br>
@@ -67,21 +67,21 @@
         }
         
 
-        echo '<h3>What Continents have you visited?</h3><br>
-        <input type="checkbox" name="continents[]" value="place-na">
-        <label for="continents1"> North American</label><br>
-        <input type="checkbox" name="continents[]" value="place-sa">
-        <label for="continents2"> South America</label><br>
-        <input type="checkbox" name="continents[]" value="place-eu">
-        <label for="continents3"> Europe</label><br>
-        <input type="checkbox" name="continents[]" value="place-as">
-        <label for="continents4"> Asia</label><br>
-        <input type="checkbox" name="continents[]" value="place-au">
-        <label for="continents5"> Australia</label><br>
-        <input type="checkbox" name="continents[]" value="place-af">
-        <label for="continents6"> Africa</label><br>
-        <input type="checkbox" name="continents[]" value="place-an">
-        <label for="continents7"> Antartica</label><br><br>';
+        echo ' <h3>What Continents have you visited?</h3><br>
+        <input type="checkbox" id="place-na" name="continents[]" value="North America">
+        <label for="place-na"> North American</label><br>
+        <input type="checkbox" id="place-sa" name="continents[]" value="South America">
+        <label for="place-sa"> South America</label><br>
+        <input type="checkbox" id="place-eu" name="continents[]" value="Europe">
+        <label for="place-eu"> Europe</label><br>
+        <input type="checkbox" id="place-as" name="continents[]" value="Asia">
+        <label for="place-aa"> Asia</label><br>
+        <input type="checkbox" id="place-au" name="continents[]" value="Austrulia">
+        <label for="place-au"> Australia</label><br>
+        <input type="checkbox" id="place-af" name="continents[]" value="Africa">
+        <label for="place-af"> Africa</label><br>
+        <input type="checkbox" id="place-an"name="continents[]" value="Antartica">
+        <label for="place-an"> Antartica</label><br><br>';
 
         
 
