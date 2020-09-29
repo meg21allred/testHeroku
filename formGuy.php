@@ -23,7 +23,7 @@ echo $userMajor."<br>";
 foreach ($aContinents as $place)
 {
 	$place_clean = htmlspecialchars($place);
-	echo "<p>$place_clean</p><br>";
+	echo "<p>$place_clean</p>";
 }
 
 echo $userComments;
