@@ -67,6 +67,22 @@
         }
         echo ' <button type="submit">Submit</button>';
         echo "</form>";
+
+        echo '<h3>What Continents have you visited?</h3><br>
+        <input type="checkbox" name="continents[]" value="North America">
+        <label for="continents1"> North American</label><br>
+        <input type="checkbox" name="continents[]" value="Sounth America">
+        <label for="continents2"> South America</label><br>
+        <input type="checkbox" name="continents[]" value="Europe">
+        <label for="continents3"> Europe</label><br>
+        <input type="checkbox" name="continents[]" value="Asia">
+        <label for="continents4"> Asia</label><br>
+        <input type="checkbox" name="continents[]" value="Australia">
+        <label for="continents5"> Australia</label><br>
+        <input type="checkbox" name="continents[]" value="Africa">
+        <label for="continents6"> Africa</label><br>
+        <input type="checkbox" name="continents[]" value="Antartica">
+        <label for="continents7"> Antartica</label><br><br>';
     ?>
 </body>
 </html>
