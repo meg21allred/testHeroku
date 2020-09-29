@@ -31,6 +31,24 @@
         <input type="radio" name="major" id="comEngine" value="Computer Engineering">
         <label for="comEngine">Computer Engineering</label><br><br>
 
+        <!-- checkboxes -->
+
+        <h3>What Continents have you visited?</h3><br>
+        <input type="checkbox" name="continents1" value="North America">
+        <label for="continents1"> North American</label><br>
+        <input type="checkbox" name="continents2" value="Sounth America">
+        <label for="continents2"> South America</label><br>
+        <input type="checkbox" name="continents3" value="Europe">
+        <label for="continents3"> Europe</label><br>
+        <input type="checkbox" name="continents4" value="Asia">
+        <label for="continents4"> Asia</label><br>
+        <input type="checkbox" name="continents5" value="Australia">
+        <label for="continents5"> Australia</label><br>
+        <input type="checkbox" name="continents6" value="Africa">
+        <label for="continents6"> Africa</label><br>
+        <input type="checkbox" name="continents7" value="Antartica">
+        <label for="continents7"> Antartica</label><br><br>
+
         <!-- comments -->
         <textarea name="comments" rows="5" cols="40" placeholder="comments..."></textarea><br><br>
     
