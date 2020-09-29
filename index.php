@@ -56,5 +56,16 @@
         <button type="submit">Submit</button>
     </form>
    
+   <?php
+        echo "<form action='index.php' method='post'>";
+
+        $majors = array('Computer Science', 'Web Design and Developement', 'Computer Information Technology', 'Computer Engineering');
+
+        for ($i = 0; $i < 4; $i++){
+            echo '<input type="radio" name="major" id="comScience" value="'.$majors[$i].'">
+            <label for="comScience">'.$majors[$i].'</label><br>';
+        }
+        echo "</form>";
+    ?>
 </body>
 </html>

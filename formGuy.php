@@ -14,10 +14,10 @@ $aContinents = $_POST['continents'];
  
     $N = count($aContinents);
 
-    echo("You selected $N continents(s): ");
+    echo("You selected $N continents(s): "."<br>");
     for($i=0; $i < $N; $i++)
     {
-      echo($aContinents[$i] . " ");
+      echo($aContinents[$i] . "<br>");
     }
   
 
