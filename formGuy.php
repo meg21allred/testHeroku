@@ -1,5 +1,4 @@
 <?php
-echo "form guy!";
 
 $userName = $_POST['name'];
 $userEmail = $_POST['email'];
@@ -8,4 +7,5 @@ $userComments = $_POST['comments'];
 
 echo "your info".'<br>';
 echo "$userName".'<br>';
+echo '<a href="mailto:'.$userEmail.'">'.$userEmail.'</a>';
 ?>
