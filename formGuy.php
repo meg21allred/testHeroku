@@ -20,9 +20,9 @@ echo $userMajor."<br>";
 //       echo($aContinents[$i] . "<br>");
 //     }
   
-foreach ($place as $aContinents)
+foreach ($aContinents as $place)
 {
-	$place_clean = htmlspecialchars($aContinents);
+	$place_clean = htmlspecialchars($place);
 	echo "<p>$place_clean</p><br>";
 }
 
